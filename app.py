@@ -15,7 +15,7 @@ from database import save_to_database, fetch_cheque_data  # Ensure database.py h
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBiUMomEfWUhfRn9nLSYqYG8hqXEN670hE")
+genai.configure(api_key="Api key")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Streamlit Page Config
